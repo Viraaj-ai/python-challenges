@@ -1,0 +1,8 @@
+total_numbers=40
+wrong_number=36
+correct_number=56
+wrong_mean=38
+wrong_sum=wrong_mean*total_numbers
+correct_sum=wrong_sum-wrong_number+correct_number
+correct_mean=correct_sum/total_numbers
+print(correct_mean)
